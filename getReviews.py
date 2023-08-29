@@ -10,7 +10,7 @@ def getReviews():
     sheet = book.add_sheet('sermant-pr-commits', cell_overwrite_ok=True)
 
     # github的token，可自行搜索教程获取账号token
-    g = Github("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",
+    g = Github("token",
                verify=False)
 
     # 仓库地址
